@@ -1,0 +1,27 @@
+﻿CREATE TABLE [dbo].[Dash_LIMS_Functionality] (
+    [Day]                                                 VARCHAR (255)  NULL,
+    [Date]                                                VARCHAR (255)  NULL,
+    [Name_of_Lab]                                         VARCHAR (255)  NULL,
+    [Hours_of_Functionality]                              VARCHAR (255)  NULL,
+    [Time_Of_Downtime]                                    VARCHAR (255)  NULL,
+    [Hours_of_Downtime]                                   VARCHAR (255)  NULL,
+    [Number_of_Downtime_Instants]                         VARCHAR (255)  NULL,
+    [Reason_for_downtime]                                 VARCHAR (255)  NULL,
+    [TimeHrs_btwn_LIMSDOWNTIME_INITIATIONofDowntime]      VARCHAR (255)  NULL,
+    [TimeHrs_btwn_LIMSDOWNTIME_LIMSTECHNICIAN_responding] VARCHAR (255)  NULL,
+    [TimeHrs_btwn_LIMSDOWNTIME_RESOLUTION]                VARCHAR (255)  NULL,
+    [Comments]                                            NVARCHAR (MAX) NULL,
+    [SourceFile]                                          VARCHAR (255)  NULL,
+    [Update_date]                                         DATE           DEFAULT (getdate()) NULL,
+    [unique_key]                                          VARCHAR (255)  NULL,
+    [Downtime_due_to_hardware_problem]                    VARCHAR (255)  NULL,
+    [Downtime_due_to_internet_connection]                 VARCHAR (255)  NULL,
+    [Downtime_due_to_software_problem]                    VARCHAR (255)  NULL,
+    [Downtime_Other_reasons]                              VARCHAR (255)  NULL,
+    [TimeLIMS_going_down_HELPDESK]                        VARCHAR (255)  NULL,
+    [TimeHELPDESK_TechRESPONSE]                           VARCHAR (255)  NULL,
+    [Status]                                              VARCHAR (255)  NULL,
+    [TimeTechRESPONSE_Resolution]                         VARCHAR (255)  NULL,
+    [checked]                                             VARCHAR (255)  NULL
+);
+

@@ -1,0 +1,10 @@
+2024-02-07 10:59:06 PM	This log contains information about the import schema operation into project 'LSS DatabaseProject' on computer 'DESKTOP-CE57RIT' by user 'malazoh'.
+2024-02-07 10:59:06 PM	Deserializing model
+2024-02-07 10:59:07 PM	Resolving model
+2024-02-07 10:59:08 PM	Visiting imported model for types
+2024-02-07 10:59:08 PM	Scanning project for duplicate elements
+2024-02-07 10:59:08 PM	Finished duplicate element processing
+2024-02-07 10:59:09 PM	Processing extra files
+2024-02-07 10:59:09 PM	Finished importing Data-tier Application file.
+2024-02-07 10:59:09 PM	A summary of the import was saved to the following location: C:\Users\malazoh\source\repos\LSS DatabaseProject\LSS DatabaseProject\Import Schema Logs\LSS DatabaseProject_20240208035906.log
+2024-02-07 10:59:09 PM	Click Finish to continue...
